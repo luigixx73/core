@@ -1,6 +1,6 @@
 {
-  "domain": "time_date",
-  "name": "Time & Date",
+  "domain": "time_date_locale",
+  "name": "Time & Date with locale",
   "documentation": "https://www.home-assistant.io/integrations/time_date",
   "codeowners": ["@fabaff"],
   "quality_scale": "internal",
