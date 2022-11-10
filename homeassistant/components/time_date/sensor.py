@@ -15,6 +15,10 @@ from homeassistant.helpers.event import async_track_point_in_utc_time
 from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
 import homeassistant.util.dt as dt_util
 
+"""Custom locale date formatting with locale.setlocale """
+
+import locale
+
 _LOGGER = logging.getLogger(__name__)
 
 TIME_STR_FORMAT = "%H:%M"
