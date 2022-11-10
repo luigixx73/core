@@ -6,6 +6,8 @@ import logging
 
 import voluptuous as vol
 
+"""custom locales with locale.setlocale """
+
 from homeassistant.components.sensor import PLATFORM_SCHEMA, SensorEntity
 from homeassistant.const import CONF_DISPLAY_OPTIONS
 from homeassistant.core import HomeAssistant, callback
